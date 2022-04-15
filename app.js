@@ -22,7 +22,7 @@ app.post('/bfhl', async (req, res) => {
         const obj = {
             is_success: true,
             user_id: "kanchan_sikder_14082001",
-            email: '0112CS191050.com',
+            email: '0112CS191050@gmail.com',
             roll_number: '0112CS191050',
             numbers,
             alphabets
@@ -34,7 +34,7 @@ app.post('/bfhl', async (req, res) => {
         const obj = {
             is_success: false,
             user_id: "kanchan_sikder_14082001",
-            email: '0112CS191050.com',
+            email: '0112CS191050@gmail.com',
             roll_number: '0112CS191050'
         };
         const myJSON = JSON.stringify(obj);
